@@ -1,18 +1,21 @@
 package main
 
-import "golang.org/x/tour/pic"
+import (
+	"golang.org/x/tour/pic"
+)
 
 func Pic(dx, dy int) [][]uint8 {
-	
-	var pict [][]uint8
 
-	for i := 0; i < dx; i++ {
-		pict = append(pict,[]uint8{1})
-		for j := 0; j < dy; j++ {
-			pict[i] = append(pict[i],uint8(i*j))
+    pict := make([][]uint8,dy)
+	
+	for x := range pict {
+		pict[x] = make([]uint8,dx)
+		for y := range pict[x] {
+			pict[x][y] = uint8(x^y)
 		}
-		fmt.Println(pict[i])
 	}
+
+    return pict
 }
 
 func main() {
