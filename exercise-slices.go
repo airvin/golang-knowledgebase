@@ -6,16 +6,16 @@ import (
 
 func Pic(dx, dy int) [][]uint8 {
 
-    pict := make([][]uint8,dy)
-	
+	pict := make([][]uint8, dy)
+
 	for x := range pict {
-		pict[x] = make([]uint8,dx)
+		pict[x] = make([]uint8, dx)
 		for y := range pict[x] {
-			pict[x][y] = uint8(x^y)
+			pict[x][y] = uint8(x ^ y)
 		}
 	}
 
-    return pict
+	return pict
 }
 
 func main() {
