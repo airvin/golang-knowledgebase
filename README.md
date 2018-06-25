@@ -338,3 +338,18 @@ if err != nil {
 fmt.Println("Converted integer:", i)
 ```
 A nil `error` denotes success; a non-nil `error` denotes failure.
+
+Goroutines
+-------
+A goroutine is a lightweight thread managed by the Go runtime.
+`go f(x, y, z)` starts a new goroutine running `f(x, y, z)`
+The evaluation of `f`, `x`, `y`, and `z` happens in the current goroutine and the execution of `f` happens in the new goroutine.
+Goroutines run in the same address space, so access to shared memory must be synchronised. The `sync` package provides useful primitives. 
+
+Channels
+------
+Channels are a typed conduit through which you can send and receive values with the channel operator `<-`
+```
+ch <- v    // Send v to channel ch.
+v := <-ch  // Receive from ch, and assign value to v.
+```
