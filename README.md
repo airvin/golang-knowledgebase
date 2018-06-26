@@ -356,21 +356,21 @@ v := <-ch  // Receive from ch, and assign value to v.
 
 Further resources
 -------
-[How to Write Go Code](https://golang.org/doc/code.html)
-[Writing, building, installing, and testing Go code screencast](https://www.youtube.com/watch?v=XCsL89YtqCs)
-[Command go](https://golang.org/cmd/go/)
-[Effective Go](https://golang.org/doc/effective_go.html)
-[Error handling and Go](https://blog.golang.org/error-handling-and-go)
-[Google I/O 2012 - Go Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs)
-[Google I/O 2013 - Advanced Go Concurrency Patterns](https://www.youtube.com/watch?v=QDDwwePbDtw)
-[GO Frequently Asked Questions (FAQ)](https://golang.org/doc/faq)
-[The Go Memory Model](https://golang.org/ref/mem)
-[Codewalk: Generating arbitrary text: a Markov chain algorithm](https://golang.org/doc/codewalk/markov/)
-[Defer, Panic, and Recover](https://blog.golang.org/defer-panic-and-recover)
-[JSON and Go](https://blog.golang.org/json-and-go)
-[Diagnostics](https://golang.org/doc/diagnostics.html)
-[The Go Programming Language Specification](https://golang.org/ref/spec)
-[Codewalk: Share Memory By Communicating](https://golang.org/doc/codewalk/sharemem/)
-[Go: a simple programming environment](https://vimeo.com/53221558)
-[Writing Web Applications](https://golang.org/doc/articles/wiki/)
-[Codewalk: First-Class Functions in Go](https://golang.org/doc/codewalk/functions/)
+[How to Write Go Code](https://golang.org/doc/code.html)<br/>
+[Writing, building, installing, and testing Go code screencast](https://www.youtube.com/watch?v=XCsL89YtqCs)<br/>
+[Command go](https://golang.org/cmd/go/)<br/>
+[Effective Go](https://golang.org/doc/effective_go.html)<br/>
+[Error handling and Go](https://blog.golang.org/error-handling-and-go)<br/>
+[Google I/O 2012 - Go Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs)<br/>
+[Google I/O 2013 - Advanced Go Concurrency Patterns](https://www.youtube.com/watch?<br/>v=QDDwwePbDtw)<br/>
+[GO Frequently Asked Questions (FAQ)](https://golang.org/doc/faq)<br/>
+[The Go Memory Model](https://golang.org/ref/mem)<br/>
+[Codewalk: Generating arbitrary text: a Markov chain algorithm](https://golang.org/doc/codewalk/markov/)<br/>
+[Defer, Panic, and Recover](https://blog.golang.org/defer-panic-and-recover)<br/>
+[JSON and Go](https://blog.golang.org/json-and-go)<br/>
+[Diagnostics](https://golang.org/doc/diagnostics.html)<br/>
+[The Go Programming Language Specification](https://golang.org/ref/spec)<br/>
+[Codewalk: Share Memory By Communicating](https://golang.org/doc/codewalk/sharemem/)<br/>
+[Go: a simple programming environment](https://vimeo.com/53221558)<br/>
+[Writing Web Applications](https://golang.org/doc/articles/wiki/)<br/>
+[Codewalk: First-Class Functions in Go](https://golang.org/doc/codewalk/functions/)<br/>
